@@ -27,7 +27,6 @@ public class InvoiceController {
     public Invoice deleteInvoice(@PathVariable String invoiceId){
         return this.invoiceService.deleteInvoice(Long.parseLong(invoiceId));
     }
-
-
-
 }
+
+
